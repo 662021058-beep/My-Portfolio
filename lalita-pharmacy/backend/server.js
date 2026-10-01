@@ -373,11 +373,10 @@ const sanitizeText = (text) => {
   return String(text).replace(/\s+/g, ' ').trim();
 };
 
-// ตัวอย่างการนำไปใช้ใน API /api/products
-const rawType = sanitizeText(product_type) || 'tablet';
-const rawCategory = sanitizeText(category) || 'ยาสามัญประจำบ้าน';
-const rawUnit = sanitizeText(unit) || 'เม็ด';
-
+// ลบ หรือ คอมเมนต์ปิดบรรทัดตัวอย่างพวกนี้ออกได้เลยครับ
+// const rawType = sanitizeText(product_type) || 'tablet';
+// const rawCategory = sanitizeText(category) || 'ยาสามัญประจำบ้าน';
+// const rawUnit = sanitizeText(unit) || 'เม็ด';
 
 app.post('/api/products', async (req, res) => {
   const { 
