@@ -37,3 +37,11 @@ Password : 123456
 - Database: MySQL
 - Cloud Database:Hosted on Clever Cloud
 - Version Control: Git & GitHub
+
+
+💊 Lalita Pharmacy-Chatbot ถามตอบอาการเบื้องต้น
+🌐 Live Demo Website: https://sci-inno.in/IT/662021058/pharmacy-bot/public/liff
+
+
+
+
