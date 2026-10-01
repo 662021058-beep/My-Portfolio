@@ -4,10 +4,11 @@
 🌐 Live Demo Website: https://my-portfolio-pharmacytest.vercel.app
 
 ใช้ Username / Password นี้ในการ Login ทดสอบเล่นระบบ
-ผู้ดูแลคลังหลัก / แอดมิน 
-Username : admin 
+📦ผู้ดูแลคลังหลัก / แอดมิน 
+Username : admin
 Password : 123456
-เภสัชกรหน้าร้่าน
+
+🧑🏻‍⚕️เภสัชกรหน้าร้่าน
 Username : pharmacy01
 Password : 123456
 
