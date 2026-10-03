@@ -15,7 +15,7 @@ export const profile = {
   gpax: "3.73",
   location: "จ.สงขลา", // ไม่ใส่ที่อยู่เต็มบนเว็บสาธารณะ
   timezone: "Asia/Bangkok",
-  availability: "2 พ.ย. 69 – 22 มี.ค. 70",
+  availability: "2 พ.ย. 69 – 19 ก.พ. 70",
   availabilityFull: "2 พฤศจิกายน 2569 – 19 กุมภาพันธ์ 2570",
   availabilityNote: "สหกิจศึกษา ประมาณ 4 เดือน",
   sideJob: "ฟรีแลนซ์งานออกแบบ",
