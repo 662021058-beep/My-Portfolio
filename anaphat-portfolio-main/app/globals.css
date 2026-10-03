@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mist: #e8e8e8; /* พื้นหลังหลัก — ตรงกับพื้นหลังรูป hero */
+  --color-snow: #fafafa;
+  --color-forest: #1a5241;
+  --color-forest-deep: #123c2f;
+  --color-night: #18231d;
+  --color-lime: #bfdb39;
+  --color-ink: #121212;
+
+  --font-sans: var(--font-plex-thai), var(--font-google-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--color-forest);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-break: loose; /* ตัดบรรทัดภาษาไทยให้เป็นธรรมชาติขึ้น */
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-lime);
+  color: var(--color-ink);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ข้อความใหญ่ระดับ display */
+.display {
+  letter-spacing: -0.05em;
+  line-height: 0.95;
+  font-weight: 400;
+}
+
+/* ก้อนสีเคลื่อนไหวในแคปซูล */
+@keyframes blob-a {
+  0%, 100% { transform: translate(-20%, -10%) scale(1); }
+  50% { transform: translate(25%, 15%) scale(1.25); }
+}
+@keyframes blob-b {
+  0%, 100% { transform: translate(30%, 20%) scale(1.1); }
+  50% { transform: translate(-25%, -15%) scale(0.85); }
+}
+.blob-a { animation: blob-a 9s ease-in-out infinite; }
+.blob-b { animation: blob-b 11s ease-in-out infinite; }
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+.marquee { animation: marquee 40s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .blob-a, .blob-b, .marquee { animation: none; }
+}
+
+/* สถานะเริ่มต้นก่อน animation เข้าฉาก (GSAP จะเขียนทับ) */
+@media (prefers-reduced-motion: no-preference) {
+  .pre-line { transform: translateY(110%); }
+  .pre-fade { opacity: 0; transform: translateY(16px); }
+  .pre-photo { transform: translateY(30%); }
+}

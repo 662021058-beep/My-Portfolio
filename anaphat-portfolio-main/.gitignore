@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+.vercel
+
+# ไฟล์ภาพต้นฉบับ (มีข้อมูลที่ยังไม่ได้เบลอ) — เว็บใช้ภาพที่แปลงแล้วใน public/
+img/
+
+# ตั้งค่าเครื่องมือในเครื่อง
+.claude/
