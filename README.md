@@ -23,7 +23,7 @@
 Username : admin
 Password : 123456
 
-🧑🏻‍⚕️เภสัชกรหน้าร้าน
+🧑🏻‍⚕️เภสัชกรหน้าร้่าน
 Username : pharmacy01
 Password : 123456
 
