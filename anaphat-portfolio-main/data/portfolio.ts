@@ -31,8 +31,8 @@ export const contact = {
   email: "earthzaza467123@gmail.com",
   phone: "091-865-8003",
   socials: [
-    { label: "GitHub", icon: "github", href: "https://github.com/662021058-beep" },
-    { label: "LINE", icon: "line", href: "https://line.me/ti/p/your-id" }, // TODO
+    { label: "GitHub", icon: "github", href: "https://github.com/662021058-beep/My-Portfolio.git" },
+    { label: "LINE", icon: "line", href: "https://line.me/ti/p/anaphatxz" }, // TODO
   ] as const,
 };
 
