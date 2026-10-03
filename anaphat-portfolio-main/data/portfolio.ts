@@ -32,7 +32,7 @@ export const contact = {
   phone: "091-865-8003",
   socials: [
     { label: "GitHub", icon: "github", href: "https://github.com/662021058-beep/My-Portfolio.git" },
-    { label: "LINE", icon: "line", href: "https://line.me/ti/p/https://line.me/ti/p/B5XLdGUtFb" }, // TODO
+    { label: "LINE", icon: "line", href: "https://line.me/ti/p/~anaphatxz" }, // TODO
   ] as const,
 };
 
