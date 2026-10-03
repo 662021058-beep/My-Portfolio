@@ -28,7 +28,7 @@ export const profile = {
 };
 
 export const contact = {
-  email: "earthzaza467123@gmail.com",
+  email: "662021058@tsu.ac.th",
   phone: "091-865-8003",
   socials: [
     { label: "GitHub", icon: "github", href: "https://github.com/662021058-beep/My-Portfolio.git" },
