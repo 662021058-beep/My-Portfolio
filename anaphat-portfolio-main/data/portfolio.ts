@@ -16,7 +16,7 @@ export const profile = {
   location: "จ.สงขลา", // ไม่ใส่ที่อยู่เต็มบนเว็บสาธารณะ
   timezone: "Asia/Bangkok",
   availability: "2 พ.ย. 69 – 22 มี.ค. 70",
-  availabilityFull: "2 พฤศจิกายน 2569 – 22 มีนาคม 2570",
+  availabilityFull: "2 พฤศจิกายน 2569 – 19 กุมภาพันธ์ 2570",
   availabilityNote: "สหกิจศึกษา ประมาณ 4 เดือน",
   sideJob: "ฟรีแลนซ์งานออกแบบ",
   photo: "/images/hero-person.webp", // ภาพคนตัดพื้นหลัง (img/person.png)
